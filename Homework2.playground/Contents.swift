@@ -5,6 +5,7 @@ import UIKit
 var result: Bool = true
 func homework(rrr:[[Int]]){
     let amount = rrr.count
+   
     for i in 1..<amount{
         if i>1{
             if rrr[i][1] != rrr[i-1][1]*2{
